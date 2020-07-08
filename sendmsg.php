@@ -51,7 +51,7 @@ if (strlen($fname) > 50) {
     $mail->Host = 'smtp.gmail.com'; //No change    // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'anujrawatutube@gmail.com';  //the account recieve               // SMTP username
-    $mail->Password = '98*72agf9es';                           // SMTP password
+    $mail->Password = '';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
