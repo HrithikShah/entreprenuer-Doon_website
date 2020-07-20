@@ -13,7 +13,7 @@ $email = mysqli_real_escape_string($mysqli, $_POST['email']);
 $message= mysqli_real_escape_string($mysqli, $_POST['message']);
 // The upper can be removed if database connection is not made--->
 
-$email2 = "anujrawatcode@gmail";// Enter the email where recieve email
+$email2 = "";// Enter the email where recieve email
 $subject = "Test Message";
 
 if (strlen($fname) > 50) {
